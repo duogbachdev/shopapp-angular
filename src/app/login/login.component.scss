@@ -1,0 +1,48 @@
+.container {
+  color: white;
+}
+
+.login-form {
+  background-color: rgb(12, 12, 55);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  border: 1px solid rgb(32, 34, 60);
+  align-items: center;
+  justify-content: center;
+}
+
+.login-header {
+  text-align: center;
+  color: rgb(105, 244, 181);
+  margin-bottom: 20px;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+
+.divider-nospace {
+  border-top: 1px solid white;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: rgb(105, 244, 181);
+  cursor: pointer;
+}

@@ -1,1 +1,84 @@
-<p>order works!</p>
+<app-header></app-header>
+<div class="container">
+  <div class="intro-section">
+    <h1>Đây là trang order sản phẩm</h1>
+    <p>Sử dụng Bootstrap</p>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="product-header">Thông tin người nhận</h2>
+      <form action="">
+        <div class="mb-3">
+          <label for="name" class="form-label">Họ và tên</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Số điện thoại</label>
+          <input type="text" class="form-control" id="phone">
+        </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <h2 class="product-order">Sản phẩm đã đặt hàng</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col" class="text-start">Sản phẩm</th>
+            <th scope="col">Số lượng</th>
+            <th scope="col">Đơn giá</th>
+            <th scope="col">Tổng giá</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="product-info">
+                <img
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mba13-midnight-select-202402?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1708367688034"
+                  alt="Product Image" class="product-image">
+                <span class="product-name">Tên sản phẩm</span>
+              </div>
+            </td>
+            <td>2</td>
+            <td>100,000 đ</td>
+            <td>200,000 đ</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="product-info">
+                <img
+                  src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mba13-midnight-select-202402?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1708367688034"
+                  alt="Product Image" class="product-image">
+                <span class="product-name">Tên sản phẩm</span>
+              </div>
+            </td>
+            <td>2</td>
+            <td>100,000 đ</td>
+            <td>200,000 đ</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="text-start mb-3">
+        <h4 class="header-text text-end">Tổng giá: 350,000 đ</h4>
+      </div>
+
+      <div class="mt-3">
+        <h4 class="product-header">Nhập coupon</h4>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Nhập coupon">
+          <button class="btn btn-gradient" type="button">Áp dụng</button>
+        </div>
+      </div>
+
+      <div class="text-start mt-3">
+        <button class="btn btn-gradient" type="button">Đặt hàng</button>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
