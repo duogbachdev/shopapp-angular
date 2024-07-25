@@ -3,7 +3,7 @@
   height: 100vh;
 }
 
-.login-form {
+.register-form {
   background-color: rgb(12, 12, 55);
   border-radius: 10px;
   padding: 20px;
@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.login-header {
+.register-header {
   text-align: center;
   color: rgb(105, 244, 181);
   margin-bottom: 20px;
@@ -90,7 +90,7 @@
   color: rgb(243, 165, 42, 0.4);
 }
 
-.login-button {
+.register-button {
   background: linear-gradient(to right, rgb(225, 64, 180), rgb(126, 83, 237));
   color: white;
   border-radius: 30px;
